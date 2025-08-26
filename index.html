@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduspace</title>
+    <style>
+        /* CSS styles */
+        html, body {
+        <img src="backgalaxy.jpg" alt="....">   height: 100%; 
+            margin: 0;  
+            background-image: url('backstars.jpg');
+            background-size: cover; 
+            background-position: center; 
+            color: white; 
+        }
+        button {
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        h {
+            color: white;
+            font-size: 25px
+        }
+        
+        .tab {
+            display: none; 
+        }
+        
+        .tab.active {
+            display: block;
+        }
+        
+        .tab-button {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        
+        .tab-button.active {
+            background-color: #ddd; 
+        }
+        p1 {
+            color: orange
+        }
+        p {
+            color: yellow;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 5px;
+      display: inline-block;
+      line-height: 1.6;
+      margin-bottom: 15px;
+        }
+        footer {
+            font-size: 10px;
+            color: deepskyblue;
+        }
+            tab6, h6 {
+             font-size: 20px;
+            }    
+    tab1, h2 {
+            font-size: 30px;
+        }
+     tab3, h3 {
+             font-size: 20px;
+            }      
+           tab4, h4 {
+             font-size: 20px;
+            }   
+    tab5, h5 {
+             font-size: 20px;
+            }   
+    tab6, h6 {
+             font-size: 20px;
+            }        
+    </style>
+</head>
+<body>
+    <h1>EduSpace</h1>
+    <div>
+        <button class="tab-button active" onclick="showTab('tab1')">Introduction Hub</button>
+        <button class="tab-button" onclick="showTab('tab2')">Basics</button>
+        <button class="tab-button" onclick="showTab('tab3')">History</button>
+        <button class="tab-button" onclick="showTab('tab7')">The solar system</button>
+        <button class="tab-button" onclick="showTab('tab8')">Stars</button>
+          
+    </div>
+
+    <div id="tab1" class="tab active">
+        <h2>Introduction to EduSpace</h2>
+        <img src="spacee.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
+        <p>Ever wondered what's beyond the blue sky? Then you've come to the right spot where we are committed in creating awareness about space and astronomy!</p>
+        <button type="button" onclick="myFunction()">Where to discuss?</button>
+        <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML ='Any questions or comments? Join our telegram group using the link provided <a href="https://t.me/Astroknowledge777">here</a> for making discussions. We are eager to hear your ideas!';
+        }
+        
+        </script>
+        <div id="demo">
+        </div>
+    </div>
+
+    <div id="tab2" class="tab">
+        <p>Here is the hub where we start our own space exploration. Stay curious!</p>
+         <img src="Gxy.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
+
+<h>## Basics of Astronomy</h>
+
+        <p>Hey everyone, space fans! So, before we get lost in all the cool details about astronomy, it’s probably a good idea to know what we're actually talking about, right? I mean, what even is "Astronomy" anyway???
+
+Well, put simply, astronomy is like our way of studying everything that’s out there in space - all those stars, planets, galaxies, the whole shebang. It's about looking beyond our little blue planet and trying to figure out what's happening up there.</p>
+
+    <p>Now, astronomy is like a tree with a bunch of branches, all connected but focusing on slightly different stuff. Here are some of the main branches:</p>
+
+<strong>Observational Astronomy...</strong><p> This is basically like being a space detective, using telescopes and other fancy instruments to gather some info from space. It’s like looking at a 'star show' in the night sky, but with much better equipment!</p>
+<p><strong>Theoretical Astronomy...</strong>: This is where the math wizards come in. They use formulas and computer simulations to try to make sense of all the crazy stuff happening in space – like figuring out how planets move around each other using complex models.</p>
+<p><strong>Astrophysics...</strong>: If you ever wondered why a star shines so brightly or why galaxies are the shape that they are, that's astrophysics! It’s basically the phisics of astronomy!</p>
+<p><strong>Cosmology...</strong>: This is about the biggest picture of all - trying to understand how the universe began, how it’s changed over time, and maybe even where it’s all headed in the end. Basically, it's trying to unravel the whole story of the universe.</p>
+<p>So, what kind of stuff does astronomy actually study? Well, all kinds of things! Here are just a few:</p>
+
+        <p><strong>Stars:</strong> Massive, glowing balls of hot gas. Our Sun is a pretty regular example.</p>
+ <p><strong>Planets:</strong>Those large bodies that go around stars, like Earth and Mars, who are circling our own Sun.</p>
+        <img src="mars.jpg" alt="Planet" style="max-width: 100%; height:auto;">
+<p><strong>Moons:</strong>The natural satellites that circle around planets, just like our Moon does around Earth.</p>
+<p><strong>Galaxies:</strong>Enormous collections of stars, gas, dust, and this mysterious thing called dark matter. Our own galaxy, the Milky Way, is a pretty amazing example.</p>
+        <img src="backgalaxy.jpg" alt="" style="max-width: 100%; height:auto;">
+  
+<p><strong>Nebulae:</strong>Huge clouds of gas and dust in space. These are actually where stars are often born, so they’re like stellar nurseries!</p>
+<p><strong>Black Holes:</strong>These are just super weird areas in space where gravity is so strong that not even light can escape them. Spooky!</p>
+<img src="BH.jpg" alt="" style="max-width: 100%; height:auto;">
+<p>Now, when we're talking about space, things get really big, so we need special units to measure distances. Here are a couple that astronomers use a lot:</p>
+
+ <p><strong>Astronomical Unit (AU)</strong>This is roughly the average distance from the Earth to the Sun (about 93 million miles or 150 million kilometers). It’s kind of our "local" unit. </p>
+ <p><strong>Light-Year:</strong>This is the distance that light travels in one year – which is about 5.88 trillion miles or 9.46 trillion kilometers! I know, it’s totally mind-blowing, right?
+And how do we see all this crazy stuff in space? With telescopes, of course! They are like giant eyes that let us see distant objects. They can be optical, using visible light, or radio, using radio waves. </p>
+
+        <p>Okay, let’s get into some mind-blowing facts about space!
+I hope your brain is ready for these, because they’re pretty crazy!</p>
+
+<p>The Universe is HUGE: We can only see a small part of it, and that part is about 93 billion light-years across. And inside that, there are around 100 billion galaxies! Can you even imagine that?</p>
+<p>It's Ancient: The universe is about 13.8 billion years old! Scientists figured that out by studying something called cosmic microwave background radiation.</p>
+<p>Exoplanets are Everywhere: We’ve discovered thousands of planets orbiting other stars (we call those exoplanets), and some might even have the right conditions to support life! And, believe it or not, there are BILLIONS of planets in our galaxy alone! Think about that for a minute...</p>
+
+<p>  Stay tuned for more updates!</p>
+          <button class="tab-button active" onclick="showTab('tab1')">Back to Introduction hub</button>
+        <button class="tab-button" onclick="showTab('tab3')">History</button>
+        
+    </div>
+        <div id="tab3" class="tab">
+            <h3> The Early History of Astronomy: A Journey Through Time</h3>
+            <p>The history of astronomy is a fascinating narrative that stretches back thousands of years, intertwining the evolution of human thought with our quest to understand the cosmos. From the early observations of celestial bodies to the sophisticated models developed by ancient civilizations, the journey of astronomy reflects humanity's enduring curiosity and ingenuity. Let's take a short note about the early history of astronomy, focusing on key civilizations that contributed to its development, their methodologies, and the profound implications of their discoveries.
+</p>
+                    <button class="tab-button" onclick="showTab('tab4')">1.Mesopotamia</button>
+            </div>
+            <div id="tab4" class="tab">                                     
+                <h4>Mesopotamia: The Cradle of Astronomy</h4>
+<img src="Meso.jpg" alt="" style="max-width: 100%; height:auto;">
+                <p>The roots of astronomy can be traced back to ancient Mesopotamia, often referred to as the cradle of civilization. Around 3000 BCE, the Babylonians began systematically observing celestial phenomena. Their keen observations were motivated by practical needs such as agriculture, navigation, and religious rituals. They developed a lunar calendar based on the phases of the moon, which was essential for agricultural planning and religious festivals.
+
+The Babylonians meticulously recorded the movements of planets and stars, creating one of the earliest star catalogs. They identified five planets—Mercury, Venus, Mars, Jupiter, and Saturn—and noted their positions in relation to fixed stars. Their mathematical prowess allowed them to predict celestial events such as eclipses with remarkable accuracy. The use of a base-60 numeral system laid the groundwork for later developments in timekeeping and angular measurement, which are still relevant in modern astronomy.
+                </p>
+            
+                    <button class="tab-button" onclick="showTab('tab5')">2.Egypt</button>
+                </div>
+           </div> 
+             <div id="tab5" class="tab">                                     
+                 <h5>Ancient Egypt Celestial Alignments and Agricultural Cycles</h5>
+<img src="Eg.jpg" alt="" style="max-width: 100%; height:auto;">
+                 <p>In ancient Egypt, astronomy was closely linked to religion and agriculture. The Egyptians observed the night sky to align their monumental structures, such as temples and pyramids, with celestial bodies. The most notable example is the Great Pyramid of Giza, which is aligned with incredible precision to true north.
+
+The heliacal rising of Sirius, which occurred just before the annual flooding of the Nile River, was particularly significant for the Egyptians. This astronomical event heralded a new agricultural season, emphasizing the interconnectedness of celestial phenomena and daily life. Egyptian astronomers developed a calendar that consisted of 365 days, divided into twelve months, with an additional five days added at the end of the year. This early understanding of timekeeping would influence future civilizations.
+ </p>
+                 <img src="pyr.jpg" alt="Great pyramids of Egypt" style="max-width: 100%; height:auto;">
+        <button class="tab-button" onclick="showTab('tab4')">1.Mesopotamia</button>
+                 
+          <button class="tab-button" onclick="showTab('tab6')">3.Greece</button>       
+            </div>
+             <div id="tab6" class="tab"> 
+                 <h6>Ancient Greece: The Birth of Theoretical Astronomy </h6>  
+                 <img src="Gre.jpg" alt="" style="max-width: 100%; height:auto;">
+                 <p>
+The ancient Greeks made monumental contributions to astronomy that laid the foundations for Western scientific thought. Beginning around 600 BCE, philosophers such as Pythagoras and Aristotle sought to understand the cosmos through reason and observation rather than merely recording celestial events. Pythagoras is credited with proposing that celestial bodies were spherical and moved in circular orbits, a revolutionary idea at the time.
+
+Aristotle expanded upon these concepts, advocating for a geocentric model where Earth was at the center of the universe. His work influenced astronomical thought for centuries. However, it was Aristarchus of Samos who dared to propose a heliocentric model, suggesting that the Sun, not Earth, was at the center of the universe. Although his ideas were not widely accepted during his lifetime, they would later resurface in the Renaissance.
+
+The most influential figure in ancient Greek astronomy was Claudius Ptolemy, whose work "Almagest" synthesized earlier knowledge and presented a comprehensive geocentric model. Ptolemy's system explained the apparent retrograde motion of planets through complex epicycles and dominated astronomical thought for over a millennium.
+</p>   
+                 <p>Fantastic! right? And this is just the beginning. There is a lot more to discover! So stay tuned and curious!</p>
+<button class="tab-button" onclick="showTab('tab4')">1.Mesopotamia</button>
+                    <button class="tab-button" onclick="showTab('tab5')">2.Egypt</button>
+                </div>
+         <div id="tab7" class="tab">
+         <h>OUR HOME SYSTEM</h>
+         <p>
+              <img src="solarsystem.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
+Alright, so let's talk about our solar system. It's basically our neighborhood in space, and it's pretty cool when you think about it.
+
+             <p>The Sun: The Star of the Show (kind of...)</p>
+
+             <p>First up, we got the Sun. It's our star, and it's like a giant, hot ball of gas. Seriously, it's HUGE, like way bigger than the Earth. It's always making energy through something called nuclear fusion (don't worry about what that is). All that energy is what keeps us warm and alive on Earth.
+
+The Sun has layers, kind of like a cake, with a super-hot center, and then it has a surface that's still really, really hot. And it's not just sitting there all quiet, sometimes it shoots out energy or gets dark spots. The sun is a really busy star!</p>
+
+             <p>The Planets: Our Space Buddies</p>
+<img src="mars.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
+             <p>Then, we've got the planets, all moving around the Sun. We can break them into two groups:</p>
+
+<p>--- The Rocky Ones (Closer to the Sun):</p>
+<p>•  Mercury: It's super close to the Sun, so it gets crazy hot, then crazy cold. It's a rock with lots of holes (craters).</p>
+<p>•  Venus: It's about the same size as Earth, but it's super hot because it's got too much air trapping heat, and it also spins backward!</p>
+<p>•  Earth: That's us! The only place we know of where there’s life. We have air, water, and lots of cool stuff.</p>
+<p>•  Mars: It's the red one, and it might have had water in the past, but it's kinda dry now.</p>
+
+<p>--- The Gassy Ones (Farther Out):</p>
+<p>•  Jupiter: It’s HUGE, the biggest planet. It’s made of gas and has a giant storm called the Great Red Spot.</p>
+<p>•  Saturn: It's got awesome rings made of icy stuff, and many, many moons.</p>
+<p>•  Uranus: This one is tilted and rotates on its side, it's an ice giant.</p>
+<p>•  Neptune: It’s the farthest away planet, also an ice giant with crazy winds and a big dark spot like Jupiter’s.</p>
+
+<p>--- Other Stuff: Small but Cool</p>
+
+<p>There are also dwarf planets, which are kinda like planets but a bit smaller, and also the moons that go around the planets. Finally, we got asteroid belts, comets, and space rocks that we can sometimes see in the sky.</p>
+
+             <h>How It All Works</h>
+
+<p>Everything in our solar system goes around the Sun because of gravity, a type of invisible force that keeps everything in place. Scientists think it all started from a giant cloud of gas a long, long time ago. And sometimes, things can move around and change, it’s all pretty dynamic.
+
+We're still exploring our solar system with spaceships and robots to see what else is out there. It’s amazing to think that there's so much we still have to learn!</p>
+
+             <h>The Main Idea</h>
+
+             <p>So, that's the solar system in a nutshell. It's a mix of planets, stars, and other space rocks, all spinning around our Sun. Pretty cool, right?</p>
+             <p1>This web is in the very beggining; and it will continue venturing forward to the edge of the universe. So, joining our endless exploration will be a great spot. See you on another update!</p1>
+         </div>
+                      <div id="tab8" class="tab">
+                          <h>STARS ✨</h>
+
+                              <p>Alright, let's talk about stars now. I remember the first time I really saw the night sky. I was way out in the country, no city lights at all. It was almost overwhelming – just a dizzying blanket of stars. And it made me wonder, what are those things? More than just pretty twinkles, right? Turns out, they’re incredibly fascinating.</p>
+
+<h>I. Stars: More Than Just Lights, They're Engines!</h>
+                                           <img src="stars.jpg" alt="" style="max-width: 100%; height:auto;">
+ 
+
+<p>We tend to think of stars as just points of light, but that's like looking at a car and only seeing the paint job. There's so much more going on inside! Stars are gigantic balls of super-hot gas, mostly hydrogen and helium, held together by their own gravity. Imagine trying to contain a nuclear explosion… that's kind of what a star is doing, but in a controlled way.</p>
+
+ <p>•  What's Inside?: Think of them like giant ovens, cooking up elements. It’s mostly hydrogen (that's the main ingredient, about 71%) and then helium (around 27%). Then there are little sprinkles of other things, like oxygen, carbon, iron - the stuff that makes up us, and the planets around us.</p>
+ <p>•  They're HUGE: When you look at them, they look tiny but they are so huge. The Sun is just an average star, and we can't look at it directly or it would damage our eyes.</p>
+ <p>•  The Power Source: The secret to a star's power is something called nuclear fusion. Deep inside, the pressure and temperature are insane. Hydrogen atoms are squeezed together so hard that they fuse, creating helium and releasing a ton of energy in the process. It's like a never-ending, self-sustaining explosion, but gravity keeps everything in check.</p>
+
+ <h>II. Star Birth: From Messy Clouds to Shining Babies</h>
+
+<p>Stars aren't permanent fixtures. They’re born, they live, and then, eventually, they die. The starting point? Huge clouds of gas and dust called nebulae.</p>
+
+<p>•  Nebulae: Stellar Nurseries: Think of these nebulae as space's maternity wards. They’re swirling clouds of gas and dust, sometimes lit up in incredible colors by nearby stars. They look so serene, but they're actually very active.</p>
+<p>•  Gravity Does Its Thing: Within these nebulae, there are areas that are a bit denser than the rest. Gravity starts to pull this denser stuff together.</p>
+<p>•  Protostars: Almost Ready: As the cloud collapses, it heats up. You get a "protostar," a hot ball of gas that's almost a star. It’s not quite hot enough for fusion to kick in yet.</p>
+<p>•  Turning On the Lights: Once the temperature hits around 10 million degrees Celsius, BAM! Fusion starts, the star "ignites," and it joins the "main sequence." This is where a star spends most of its life, burning hydrogen into helium. Our Sun is in this stage right now.</p>
+
+ <h>III. Star Life: It's All About the Mass</h>
+
+                                  <p>How a star lives and dies depends a lot on its mass. Big stars live fast and die young. Smaller stars are more like slow-burning candles. Astronomers use something called the H-R diagram to map this out.</p>
+
+ <p>•  The H-R Diagram: A Stellar Roadmap: The H-R Diagram plots a star's brightness vs. its color (which tells us its temperature). It's like a family portrait of all the stars, and it shows how they change over time.</p>
+ <p>•  Smaller Stars, Gentler Deaths (Like Our Sun...Eventually):</p>
+ <p>  •  Red Giant Phase: When a star like our Sun runs out of hydrogen in its core, it freaks out. It starts burning hydrogen in a shell around the core, which makes it swell up enormously, becoming a red giant. It's not a good time to be living on a planet orbiting that star!</p>
+ <p>  •  Planetary Nebulae: A Beautiful Farewell: The red giant then gently puffs off its outer layers into space, creating a beautiful, glowing cloud called a planetary nebula. They're often circular or ring-shaped, and they're some of the prettiest things in the sky.</p>
+ <p>  •  White Dwarfs: Fading Embers: What's left behind is the core of the star, a tiny, super-dense object called a white dwarf. It's incrediblyhot but very dim, and it slowly cools down over trillions of years.
+<p>•  Big Stars, Explosive Deaths:</p>
+<p>  •  Supergiants: Living Large: Big stars live fast, die young, and leave a good-looking corpse. They become supergiants, even bigger and brighter than red giants.</p>
+<p>  •  Supernova: Going Out with a Bang: When a supergiant runs out of fuel, it collapses in on itself, triggering a supernova. It's a gigantic explosion that can outshine entire galaxies for a brief time.</p>
+<p>  •  Neutron Stars or Black Holes: What's left after a supernova is either a neutron star (a ridiculously dense object made of neutrons) or, if the star was massive enough, a black hole (an object so dense that nothing, not even light, can escape).</p>
+
+<h>IV. What We Can Learn Just by Looking:</h>
+
+<p>Even from Earth, we can learn a lot about a star. Its color and brightness are clues to its secrets.</p>
+
+<p>•  Color = Temperature: The color of a star tells us its temperature. Blue stars are incredibly hot, while red stars are relatively cool. Think of a blacksmith heating metal – it glows red when it's hot, then orange, then yellow, and finally white-hot or blue-hot.</p>
+<p>•  Brightness = Luminosity: How bright a star looks tells us how much energy it's putting out. But we also need to know how far away it is. A dim star close by can look brighter than a luminous star that's far away.</p>
+
+<h>V. Why Stars Matter: More Than Just Pretty Pictures</h>
+
+     <p>Stars are more than just twinkling lights. They’re the engines that drive the universe.</p>
+                 <img src="str.jpg" alt="" style="max-width: 100%; height:auto;">
+ 
+<p>•  Energy for Life: Stars provide the energy that makes life possible on planets like Earth. Without the Sun, our planet would be a frozen wasteland.</p>
+<p>•  Making Elements: Stars are the cosmic foundries where heavier elements are forged. The carbon in our bodies, the oxygen we breathe, the iron in our blood – all of these elements were created inside stars and scattered into space during supernova explosions. We are, literally, made of stardust.</p>
+<p>•  Building Galaxies: Stars influence the shape and evolution of galaxies. Their gravity pulls things together, and their energy shapes the gas and dust around them.</p>
+     <p>•  Measuring the Universe: Some types of stars act like cosmic mile markers, allowing us to measure distances across the vastness of space.</p>
+
+considering that you may have questions we will see more about HR diagram and other confusing key words mentioned here. There's still so much we don't know, and that's what makes it so exciting. Keep looking up, keep asking questions, and keep exploring!
+ </p>
+                      </div>
+        <script>
+        function showTab(tabId) {
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => button.classList.remove('active'));
+
+            document.getElementById(tabId).classList.add('active');
+
+            const activeButton = Array.from(buttons).find(button => button.textContent === tabId.replace('tab', 'Hub'));
+            if (activeButton) {
+                activeButton.classList.add('active');
+            }
+        }
+
+        function myfunction() {
+            document.getElementById("demo").innerHTML = "Thank you, here is the link for our telegram group. <a href='https://t.me/astroknowledge777' class='telegram-link' target='_blank'>CLICK HERE</a>";
+        }
+
+        console.log('JavaScript Console');
+    </script>
+  
+    <footer>
+        <l>Made by Dawit Gebreyesus; &copy; 2024 Eduspace. All rights reserved
+            
+            If you have any suggestions about anything and everything, contact us via the telegram group ^⁠_⁠^. Link is given in the introduction page.</l>
+    </footer>
+</body>
+ </html>
+ 
