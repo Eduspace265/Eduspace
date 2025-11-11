@@ -1,6 +1,6 @@
 html, body {
         <img src="backgalaxy.jpg" alt="....">   height: 100%; 
-            margin: 0;  
+            margin: auto;  
             background-image: url('backstars.jpg');
             background-size: cover; 
             background-position: center;
@@ -42,7 +42,7 @@ html, body {
         p1 {
             color: orange
         }
-        p {
+        p,li {
             color: yellow;
       background-color: rgba(0, 0, 0, 0.6);
       padding: 5px;
@@ -72,6 +72,34 @@ html, body {
     tab6, h6 {
              font-size: 20px;
     }
+.fade-in-title {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        
+        animation: fadeIn 1.5s forwards;
+}
+.fade-in-text {
+        opacity: 0;
+        transition: opacity 10s ease-in-out;
+        
+        animation: fadeIn 3s forwards;
+}
+.sth {
+        opacity: 0;
+        transition: opacity 10s ease-in-out;
+        
+        animation: fadeIn 4.9s forwards;
+}
 
+.fade {
+        opacity: 0;
+        transition: opacity 10s ease-in-out;
+        
+        animation: fadeIn 2.5s forwards;
+}
 
+@keyframes fadeIn {
+        from {opacity:0; }
+        to {opacity:1; }
+}
 
