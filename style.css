@@ -4,7 +4,7 @@ html, body {
             background-image: url('backstars.jpg');
             background-size: cover; 
             background-position: center;
-        width: 600px
+        width: 100%
         }
         button {
             border-radius: 50px;
