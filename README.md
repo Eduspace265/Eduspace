@@ -1,4 +1,4 @@
-EduSpace: Interactive Astronomy Hub
+EduSpace: Astronomy Hub
 
 Hi, I'm Dawit Gebreyesus, an astronomy fan who built EduSpace to make space learning easy and exciting. Are you ready to explore beyond the sky? Use this link to start! https://eduspace265.github.io/Eduspace/
 
